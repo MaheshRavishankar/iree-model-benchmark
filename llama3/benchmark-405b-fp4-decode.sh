@@ -20,7 +20,7 @@ readonly TRACY_CAPTURE="${TRACY_CAPTURE:-$(which iree-tracy-capture)}"
 readonly TRACY_PORT=${TRACY_PORT:-8087}
 readonly TOKEN_LEN="${TOKEN_LEN:-2500}"
 
-readonly INPUT_PATH="${INPUT_PATH:-${SCRIPT_DIR}/inputs/405b_fp4/args_bs4_${TOKEN_LEN}}"
+readonly INPUT_PATH="${INPUT_PATH:-${SCRIPT_DIR}/inputs/405b_fp4_new/args_bs4_${TOKEN_LEN}}"
 
 readonly -a INPUTS=(
   "--input=@${INPUT_PATH}/decode_input0_tokens.npy"

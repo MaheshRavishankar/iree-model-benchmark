@@ -35,6 +35,7 @@ COMPILER_FLAGS=(
     "--iree-hal-indirect-command-buffers=true" \
     "--iree-stream-resource-memory-model=discrete" \
     "--iree-hip-enable-tensor-ukernels" \
+    "--iree-hip-encoding-layout-resolver=data-tiling" \
     "--iree-hip-specialize-dispatches" \
     "--iree-hal-memoization=true" \
     "--iree-stream-affinity-solver-max-iterations=1024")
